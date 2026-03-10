@@ -31,6 +31,9 @@ model Contact {
 }
 ```
 
+**Hosted Endpoint URL:**
+[https://bitspeed-mmw0.onrender.com/identify]
+
 ## API Usage
 
 ### `POST /identify`
@@ -105,7 +108,6 @@ This application is configured for deployment on Render.
    - Add `DATABASE_URL` pointing to your Render PostgreSQL instance.
    - Add `PORT` (e.g., `10000`).
 
-**Hosted Endpoint URL:**
-*(Placeholder: https://your-render-app.onrender.com/identify)*
+
 
 A `/health` endpoint is available at `GET /health` to verify deployment status.
